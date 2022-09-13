@@ -35,3 +35,6 @@ const filmes = [
 ]
 
 // escreva seu código abaixo 👇🏻
+for (filme of filmes){
+  console.log(`${filme.titulo}, de ${filme.ano}, dirigido por ${filme.diretor}\nTem no elenco: ${filme.elenco}\n`);
+}
