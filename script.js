@@ -43,8 +43,6 @@ const resultadoMega = [
   [1, 2, 10, 26, 11, 48],
 ];
 
-
-
 // for (let i = 0; i < resultadoMega.length; i++) {
 //   console.log(resultadoMega[i].length);
 //   if (resultadoMega[i].length != 6) {
@@ -61,15 +59,17 @@ const resultadoMega = [
 // }
 
 var array = [];
-array[2] = 'c';
-array[1] = 'b';
-array[0] = 'a';
-array[7] = '7'
+array[0] = "a", "B";
+array[1] = "b";
+array[2] = "c";
+
+array[7] = "TESTE";
 
 for (var p of array) {
-  console.log(p)
+  console.log(p);
 }
-console.log("*****")
+console.log("*****!!!!!!!!!!!!!!!!!!!!!!!!!");
+
 for (var p in array) {
-  console.log(array[p])
+  console.log(array[p]);
 }
